@@ -9,23 +9,30 @@
     display: inline-block;
     border: 1px solid black;
 }
-#black{
+.black{
     height: 40px;
     width: 40px;
     background-color: black;
 }
-#red{
+.red{
     height: 40px;
     width: 40px;
     background-color: red;
 }
-#blue{
+.blue{
     height: 40px;
     width: 40px;
     background-color: blue;
 }
-#green{
+.green{
     height: 40px;
     width: 40px;
     background-color: green;
+}
+.selected{
+    transform: translateX(2px);
+}
+#clear-board{
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
