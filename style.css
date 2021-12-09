@@ -1,0 +1,31 @@
+.pixel{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+}
+.color{
+    display: inline-block;
+    border: 1px solid black;
+}
+#black{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+#red{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+#blue{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+}
+#green{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+}
