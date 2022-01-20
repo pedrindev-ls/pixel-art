@@ -94,7 +94,7 @@ quad25.addEventListener('click', paint);
 
 const reset = document.querySelector('#clear-board');
 reset.addEventListener('click', function() {
-    let pixels = document.getElementsByClassName('pixel');
+    const pixels = document.getElementsByClassName('pixel');
     for (let i of pixels) {
         i.classList.remove('black');
         i.classList.remove('red');
