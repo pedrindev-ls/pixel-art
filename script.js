@@ -1,7 +1,7 @@
-let cor1 = document.querySelector('.black');
-let cor2 = document.querySelector('.red');
-let cor3 = document.querySelector('.blue');
-let cor4 = document.querySelector('.green');
+const cor1 = document.querySelector('.black');
+const cor2 = document.querySelector('.red');
+const cor3 = document.querySelector('.blue');
+const cor4 = document.querySelector('.green');
 
 function className(event) {
   const lugar = document.querySelector('.selected');
