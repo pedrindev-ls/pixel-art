@@ -40,7 +40,6 @@ const quad23 = document.querySelector('#quad23');
 const quad24 = document.querySelector('#quad24');
 const quad25 = document.querySelector('#quad25');
 
-
 function paint(event) {
     let lugar = document.querySelector('.selected')
     if (lugar === cor1){
@@ -64,7 +63,7 @@ function paint(event) {
         event.target.classList.remove('blue')
         event.target.classList.remove('black')
     }
-}
+};
 
 quad1.addEventListener('click', paint);
 quad2.addEventListener('click', paint);
